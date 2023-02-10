@@ -1,0 +1,16 @@
+.mainContainer {
+  padding: 24px 150px;
+	background-color: #e5e6e8;
+  .mainTitle {
+    text-align: center;
+  }
+  .companies {
+    padding: 24px;
+  }
+  .buttonGrid {
+		align-items: center;
+    .addCompanyButton {
+      width: 160px;
+    }
+  }
+}

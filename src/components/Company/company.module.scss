@@ -1,0 +1,53 @@
+.company {
+  width: 800px;
+  border: 1px solid black;
+  min-width: 700px;
+  padding: 24px;
+}
+
+.companyFullName {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.listStack {
+  list-style-type: none;
+  padding-left: 0;
+}
+.totalIncome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titleBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  .typographyBox {
+    display: flex;
+    flex-direction: column;
+  }
+  .deleteCompanyButton {
+    position: absolute;
+    right: -12px;
+  }
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  svg {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+  }
+  .editSubsidiaryButton {
+    min-width: 16px;
+    padding: 0 2px;
+  }
+  .deleteSubsidiaryButton {
+    min-width: 16px;
+    padding: 0 2px;
+  }
+}
